@@ -9913,3 +9913,5 @@ h4, h5, h6 {
   padding: 0;
   list-style-type: none;
 }
+
+.tipoletra { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;  font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
