@@ -43,6 +43,7 @@
 }
 
 
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -9914,4 +9915,4 @@ h4, h5, h6 {
   list-style-type: none;
 }
 
-.tipoletra { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;  font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
+.tipoletra { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;  font-style: normal; font-variant: normal; font-weight: 500; line-height: 26.4px; } 
