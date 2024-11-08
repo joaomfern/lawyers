@@ -129,6 +129,19 @@
 
 const headerElement = document.querySelector("#header");
 const footerElement = document.querySelector("#footer");
+const areaAtuacaoElement = document.querySelector("#areaAtuacao");
+
+const fetchAreaAtuacao = async () => {
+    try {
+      const res = await fetch("./areaAtuacao.html");
+      const template = await res.text();
+  
+      areaAtuacaoElement.innerHTML = template;
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
 
 const fetchHeader = async () => {
   try {
@@ -154,6 +167,7 @@ const fetchFooter = async () => {
 
 fetchHeader();
 fetchFooter();
+fetchAreaAtuacao();
 
 const items = document.querySelectorAll(".accordion button");
 
